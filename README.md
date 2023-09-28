@@ -7,7 +7,7 @@ Link to the paper: https://dl.acm.org/doi/pdf/10.1145/3489517.3530552
 Change LaneNum (the element number) for each vector register: located in top_artya7.sv
 
 ## Work as the pure SIMD processor for other applications
-Delete or comment on the code about "VEC_CPU": "`ifdef VEC_CPU  ... `endif"
+Delete or comment code about "VEC_CPU": "`ifdef VEC_CPU  ... `endif"
 
 ## RISC-V GNU Compiler Toolchain
 We first used the toolchain: https://github.com/riscv-collab/riscv-gnu-toolchain/tree/rvv-intrinsic
