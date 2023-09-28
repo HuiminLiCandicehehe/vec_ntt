@@ -1,13 +1,13 @@
 # Customized Vector Extensions for CRYSTALS-Kyber
-RISC-V  Vector extensions for NTT
+## RISC-V  Vector extensions for NTT
 Repository code to support paper “Li H, Mentens N, Picek S. A scalable SIMD RISC-V based processor with customized vector extensions for CRYSTALS-kyber[C]//Proceedings of the 59th ACM/IEEE Design Automation Conference. 2022: 733-738.”
 Link to the paper: https://dl.acm.org/doi/pdf/10.1145/3489517.3530552
 
 ## Scalablity
-Change LaneNum （the element number）for each vector register: located in top_artya7.sv
+Change LaneNum (the element number) for each vector register: located in top_artya7.sv
 
-## Work as the pure SIMD processor
-Delete or comment the about "`ifdef VEC_CPU  ... `endif"
+## Work as the pure SIMD processor for other applications
+Delete or comment on the code about "VEC_CPU": "`ifdef VEC_CPU  ... `endif"
 
 ## RISC-V GNU Compiler Toolchain
 We first used the toolchain: https://github.com/riscv-collab/riscv-gnu-toolchain/tree/rvv-intrinsic
