@@ -10,11 +10,11 @@ Change LaneNum (the element number) for each vector register: located in top_art
 Delete or comment code about "VEC_CPU": "`ifdef VEC_CPU  ... `endif"
 
 ## RISC-V GNU Compiler Toolchain
-We first used the toolchain: https://github.com/riscv-collab/riscv-gnu-toolchain/tree/rvv-intrinsic
+We first used the toolchain: https://github.com/riscv-collab/riscv-gnu-toolchain/tree/rvv-intrinsic.
 Then later we found the developers had already deleted the link and published a new link：https://github.com/riscv-collab/riscv-gnu-toolchain/tree/rvv-next.
 
 ## Vivado Version
-Vivado 2019.2
+Vivado 2019.2. 
 New versions also support if IPs are updated
 
 ## Ibex Version
