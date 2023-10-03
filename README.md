@@ -27,6 +27,11 @@ If you use this code, please consider citing:
 
 @inproceedings{li2022scalable,
   title={A scalable SIMD RISC-V based processor with customized vector extensions for CRYSTALS-kyber},
+
+## Note
+This study primarily centers on leveraging the computational capabilities of the Single Instruction Multiple Data (SIMD) processor for cryptographic algorithms. As a result, this study focuses solely on the implementation of Vector Integer Arithmetic Instructions within the RISC-V Vector ISA, excluding Vector Fixed-Point Arithmetic Instructions and Vector Floating-Point Instructions.
+
+
   author={Li, Huimin and Mentens, Nele and Picek, Stjepan},
   booktitle={Proceedings of the 59th ACM/IEEE Design Automation Conference},
   pages={733--738},
