@@ -1,6 +1,6 @@
 # A scalable SIMD RISC-V based processor with customized vector extensions for CRYSTALS-kyber
 ## RISC-V  Vector extensions for NTT
-Repository code to support paper “Li H, Mentens N, Picek S. A scalable SIMD RISC-V based processor with customized vector extensions for CRYSTALS-kyber[C]//Proceedings of the 59th ACM/IEEE Design Automation Conference. 2022: 733-738.”
+Repository code to support paper “Li, Huimin, Nele Mentens, and Stjepan Picek. "A scalable SIMD RISC-V based processor with customized vector extensions for CRYSTALS-kyber." Proceedings of the 59th ACM/IEEE Design Automation Conference. 2022.”
 Link to the paper: https://dl.acm.org/doi/pdf/10.1145/3489517.3530552
 
 ## Scalability
